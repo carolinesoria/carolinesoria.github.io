@@ -651,7 +651,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# Interests
 --------------------------------------------------------------*/
 .services .icon-box {
   padding: 20px 15px;
@@ -736,7 +736,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
@@ -860,22 +860,22 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# Gallery Details
 --------------------------------------------------------------*/
-.portfolio-details {
+.gallery-details {
   padding-top: 40px;
 }
 
-.portfolio-details .portfolio-details-slider img {
+.gallery-details .gallery-details-slider img {
   width: 100%;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination {
+.gallery-details .gallery-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.gallery-details .gallery-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -883,16 +883,16 @@ section {
   border: 1px solid #d43076;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.gallery-details .gallery-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #d43076;
 }
 
-.portfolio-details .portfolio-info {
+.gallery-details .gallery-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(44, 73, 100, 0.08);
 }
 
-.portfolio-details .portfolio-info h3 {
+.gallery-details .gallery-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -900,32 +900,32 @@ section {
   border-bottom: 1px solid #eee;
 }
 
-.portfolio-details .portfolio-info ul {
+.gallery-details .gallery-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.gallery-details .gallery-info ul li+li {
   margin-top: 10px;
 }
 
-.portfolio-details .portfolio-description {
+.gallery-details .gallery-description {
   padding-top: 30px;
 }
 
-.portfolio-details .portfolio-description h2 {
+.gallery-details .gallery-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.portfolio-details .portfolio-description p {
+.gallery-details .gallery-description p {
   padding: 0;
 }
 
 /*--------------------------------------------------------------
-# Testimonials
+# Testimonials/work samples
 --------------------------------------------------------------*/
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
@@ -1031,7 +1031,7 @@ section {
 .contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Playfair Display", serif;
+  font-family: "Open Sans", sans-serif;
   color: #3c6387;
 }
 
