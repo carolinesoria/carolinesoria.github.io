@@ -465,6 +465,7 @@ a:hover .section {
 }
 
 .breadcrumbs ol {
+  color:#d43076;
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -474,6 +475,7 @@ a:hover .section {
 }
 
 .breadcrumbs ol li+li {
+  color:#6c757d;
   padding-left: 10px;
 }
 
