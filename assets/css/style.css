@@ -18,6 +18,10 @@ a {
   text-decoration: none;
 }
 
+a.footer { /* added specific footer link css for to increase contrast */
+  color:#d43076
+}
+
 a:hover {
   color: #dd5a92;
   text-decoration: none;
