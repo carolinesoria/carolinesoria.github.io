@@ -455,7 +455,8 @@ a:hover .section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background-color: #fcf2f7;
+  background-color: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25); /* changed bgd color and added shadow to increase color contrast */
   min-height: 40px;
 }
 
