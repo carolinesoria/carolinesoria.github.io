@@ -466,13 +466,13 @@ a:hover .section {
 }
 
 .breadcrumbs ol {
-  color:#d43076;
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
   margin: 0;
   font-size: 14px;
+  color: #d43076;
 }
 
 .breadcrumbs ol li+li {
