@@ -10,12 +10,23 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif; /* changed fonts to sans-serif */
-  color: #5a656e;
+  color:#5a656e;
 }
 
 a {
-  color: #dd5a92;
+  color:#dd5a92;
   text-decoration: none;
+}
+
+a.header { /* added header styling for h2 since it used to be h1 */
+  color:#345676;
+  font-size: 26px;
+  margin: 0;
+  padding: 6px 0;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 a.footer { /* added specific footer link css for to increase contrast */
@@ -808,6 +819,12 @@ section {
   text-align: center;
   z-index: 3;
   transition: all ease-in-out 0.3s;
+}
+
+.portfolio .portfolio-wrap .portfolio-info h3 { /* added h3 css for portfolio/gallery items to retain heading structure */
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
