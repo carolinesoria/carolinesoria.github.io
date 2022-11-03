@@ -437,7 +437,7 @@ section {
   margin-bottom: 0;
 }
 
-a.section {
+a.section { /* added a.section and a:hover .section to enable tab nav */
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 15px;
