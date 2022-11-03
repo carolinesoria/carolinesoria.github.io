@@ -29,7 +29,7 @@ a.header { /* added header styling for h2 since it used to be h1 */
   text-transform: uppercase;
 }
 
-a.footer { /* added specific footer link css for to increase contrast */
+a.footer { /* added specific footer link css to increase contrast */
   color:#d43076
 }
 
@@ -472,7 +472,7 @@ a:hover .section {
   padding: 0;
   margin: 0;
   font-size: 14px;
-  color: #d43076;
+  color: #6c757d;
 }
 
 .breadcrumbs ol li+li {
@@ -485,6 +485,15 @@ a:hover .section {
   padding-right: 10px;
   color: #6c757d;
   content: "/";
+}
+
+.breadcrumbs a { /* changed color to increase contrast */
+  color:#6c757d
+}
+
+.breadcrumbs ol a:hover {
+  color: #d43076;
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
